@@ -218,3 +218,43 @@
 
 
 // console.log(`hey`)
+
+// let namse = "3"
+// let basit = 3
+
+// console.log(namse === basit)
+
+// let hunain = null;
+// console.log(hunain)
+
+
+// console.log("i")
+// setTimeout(() => {
+//     console.log("tosia")
+// }, 3000);
+
+// console.log("love")
+
+
+const apicalling = document.getElementById("user");
+
+async function callinglist() {
+    try {
+        const data = await fetch("https://jsonplaceholder.typicode.com/users")
+        const res = await data.json()
+        console.log(res) 
+
+        apicalling.innerHTML = res.map(user => {
+            return `<p>${user.id} ${user.name} ${user.email}</p>`;
+        });
+
+    } catch {
+        console.log("error found")
+        
+    }
+
+    
+}
+
+callinglist()
+
