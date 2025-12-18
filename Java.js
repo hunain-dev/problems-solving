@@ -146,3 +146,65 @@
 
 
 
+// const arr  = [1,2,3,4,5]
+// const arr2 = [...arr,6,7,8]
+// console.log(arr2)
+
+// let copy = [1,2,3,4,5,6]
+// let shallw = [...copy]
+
+// shallw.push(40);
+// console.log(shallw)
+// console.log(copy)
+
+// const user = {
+//      email :"hunainkhan1122@gmail.com",
+//      name : "hunain"
+// }
+// const copy = [...user]
+// console.log(copy)
+
+
+// var doc = document.querySelector(".btn");
+// doc.addEventListener("click",(bc)=>{
+//     alert("hey")
+    
+    
+// })
+
+
+// setTimeout(() => {
+//     console.log("hey")
+// }, 3000);
+
+// setInterval(() => {
+//     console.log("rocks")
+// }, 1000);
+
+
+
+// const fetch = new Promise((resolve,reject)=>{
+//     let sucess = true
+//     if (sucess) {
+//         resolve("tu makmiyab ho")
+        
+//     } else {
+//         reject("tum fail ho")
+//     }
+// })
+
+// console.log(fetch)
+
+
+async function name() {
+    try {
+        const data = await fetch("https://jsonplaceholder.typicode.com/users")
+        let res =  await data.json();
+        console.log(res)
+    } catch{
+        console.log("error found")
+        
+    }
+
+    
+}
