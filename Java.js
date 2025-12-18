@@ -196,15 +196,25 @@
 // console.log(fetch)
 
 
-async function name() {
-    try {
-        const data = await fetch("https://jsonplaceholder.typicode.com/users")
-        let res =  await data.json();
-        console.log(res)
-    } catch{
-        console.log("error found")
+// async function name() {
+//     try {
+//         const data = await fetch("https://jsonplaceholder.typicode.com/users")
+//         let res =  await data.json();
+//         console.log(res)
+//     } catch{
+//         console.log("error found")
         
-    }
+//     }
 
     
-}
+// }
+
+
+// async function name() {
+//     const data = await fetch("")
+//     const datas = await  data.json()
+    
+// }
+
+
+// console.log(`hey`)
