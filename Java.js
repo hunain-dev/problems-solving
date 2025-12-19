@@ -331,26 +331,54 @@ const numbers = [1, 2, 3, 4, 5, 6,"hunain"];
   
 // console.log("hey")
 
-let counter = document.getElementsByClassName("count")[0];
-let increment = document.getElementsByClassName("increment")[0];
-let decrement = document.getElementsByClassName("Decrement")[0];
+// let counter = document.getElementsByClassName("count")[0];
+// let increment = document.getElementsByClassName("increment")[0];
+// let decrement = document.getElementsByClassName("Decrement")[0];
 
-let count = 0;
+// let count = 0;
 
-increment.addEventListener("click", function() {
-    count ++
-    counter.innerHTML = count
+// increment.addEventListener("click", function() {
+//     count ++
+//     counter.innerHTML = count
     
-})
+// })
 
-decrement.addEventListener("click", function() {
-    if (count > 0) {
-        count --
-        counter.innerHTML = count
+// decrement.addEventListener("click", function() {
+//     if (count > 0) {
+//         count --
+//         counter.innerHTML = count
         
-    } else {
-        console.log("fucming error")
+//     } else {
+//         console.log("fucming error")
         
-    }
+//     }
 
-})
+// })
+
+
+// setInterval(() => {
+//     console.log("error")
+// }, 3000);
+
+
+// let str = "hello";
+
+// let  reversed  = str.split("").reverse().join()
+// console.log(reversed)
+
+// let names  = "hunain"
+// let reseverd = names.split("").reverse().join("")
+// console.log(reseverd)
+
+// function palimdrom(str) {
+//     let back = str.split("").reverse().join("")
+//     return back === str
+    
+// }
+// console.log(palimdrom("madam"))
+// console.log(palimdrom("hello"))
+
+
+const arr = [1,2,3,4,5,5,6,6,7,5]
+const dplicate =  [...new Set(arr)]
+console.log(dplicate)
