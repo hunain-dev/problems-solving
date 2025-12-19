@@ -329,3 +329,28 @@ const numbers = [1, 2, 3, 4, 5, 6,"hunain"];
 
 //   console.log(user.getName());
   
+// console.log("hey")
+
+let counter = document.getElementsByClassName("count")[0];
+let increment = document.getElementsByClassName("increment")[0];
+let decrement = document.getElementsByClassName("Decrement")[0];
+
+let count = 0;
+
+increment.addEventListener("click", function() {
+    count ++
+    counter.innerHTML = count
+    
+})
+
+decrement.addEventListener("click", function() {
+    if (count > 0) {
+        count --
+        counter.innerHTML = count
+        
+    } else {
+        console.log("fucming error")
+        
+    }
+
+})
