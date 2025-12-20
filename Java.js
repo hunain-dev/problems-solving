@@ -379,6 +379,58 @@ const numbers = [1, 2, 3, 4, 5, 6,"hunain"];
 // console.log(palimdrom("hello"))
 
 
-const arr = [1,2,3,4,5,5,6,6,7,5]
-const dplicate =  [...new Set(arr)]
-console.log(dplicate)
+// const arr = [1,2,3,4,5,5,6,6,7,5]
+// const dplicate =  [...new Set(arr)]
+// console.log(dplicate)
+
+
+
+
+// function createcounter() {
+//     let count = 0;
+
+//     return function () {
+//         count ++
+//         console.log(count)
+        
+//     }
+    
+// }
+// const counter = createcounter();
+
+// counter()
+// counter()
+// counter()
+// counter()
+
+
+// console.log(a);
+// var a = 10;
+
+
+// console.log(b);
+// let b = 20;
+
+// const user = {
+//     name: "Hunain",
+//     getName: function () {
+//       console.log(this.name);
+//     }
+//   };
+  
+//   const getUserName = user.getName;
+//  console.log( getUserName())
+  
+
+// const nums = [1, 2, 3, 4, 5, 6];
+
+
+// const arr = nums.filter(function(square) {
+//     return square % 2 == 0
+
+    
+// })
+// console.log(arr)
+
+
+const arr = [1, 2, 2, 3, 4, 4, 5];
