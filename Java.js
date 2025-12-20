@@ -433,4 +433,206 @@ const numbers = [1, 2, 3, 4, 5, 6,"hunain"];
 // console.log(arr)
 
 
-const arr = [1, 2, 2, 3, 4, 4, 5];
+// const arr = [1, 2, 2, 3, 4, 4, 5];
+// const duplicate = [...new Set(arr)];
+// console.log(duplicate)
+
+
+// function palindroms(str) {
+//     const back = str.split("").reverse().join("")
+//     return back === str
+// }
+
+// console.log(palindroms("level"))
+
+
+// async function fetchData() {
+//     try {
+//         const res = await fetch("https://jsonplaceholder.typicode.com/users");
+//         const data = await res.json();
+//         console.log(data);
+//     } catch  {
+//         alert("alert hass ben found")
+        
+//     }
+  
+//   }
+//   fetchData()
+
+
+// let names = "hunain";
+// const returns = names.split("").reverse().join("")
+// console.log(returns)
+
+
+// document.getElementById("parent").addEventListener("click", () =>{
+//     console.log("hey")
+// })
+
+
+// document.getElementById("clid").addEventListener("click", (event) =>{
+//     event.stopPropagation();
+//     console.log("clid")
+// })
+
+
+// document.getElementById("section").addEventListener("click",() =>{
+//     console.log("hunain")
+// })
+
+// document.getElementById("child").addEventListener("click",(event) =>{
+//     event.stopPropagation()
+//     console.log("child hunain")
+// })
+
+
+// function outer() {
+//     let count = 0;
+  
+//     return function () {
+//       count++;
+//       console.log(count);
+//     };
+//   }
+  
+//   const fn1 = outer();
+//   fn1();
+//   fn1();
+  
+//   const fn2 = outer();
+//   fn2();
+
+
+//   for (let i = 1; i <= 3; i++) {
+//     setTimeout(() => {
+//       console.log(i);
+//     }, 2000);
+//   }
+  
+
+// let a = 10;
+
+// function test() {
+//   console.log(a);
+//   let a = 20;
+// }
+
+// test();
+// const arr = [1, [2, [3, 4]], 5]
+// console.log(arr)
+
+// function show() {
+//     console.log(this);
+//   }
+  
+//   show();
+
+//   console.log([] == []);
+// console.log([] == ![]);
+
+// var x = 5;
+// let y = 10;
+
+// function test() {
+//   var x = 20;
+//   let y = 30;
+//   console.log(x, y);
+// }
+// test();
+// console.log(x, y);
+
+
+// function greeet(name) {
+//     return function() {
+//         console.log("hello my name is",name)
+        
+//     }
+    
+// }
+// let greeting = greeet("hunain");
+// let greetings = greeet("abdullah");
+// greeting()
+// greetings()
+
+
+// const arr = [1,2,3,4,5,5,6,6,7,7,8,8,9,9,10]
+// const duplicate = [...new Set(arr)]
+// console.log(duplicate)
+
+// function palindromss(str) {
+
+//     const dubplicates = str.split("").reverse("").join("")
+//     return dubplicates === str
+    
+// }
+// console.log(palindromss("121"))
+
+
+// let string = "hunain"
+// const reverses = string.split("").reverse().join("")
+// console.log(reverses)
+
+
+
+// function clouses(str) {
+
+//     return function(){
+//         console.log("hello",str)
+        
+//     }
+
+    
+// }
+// const greeting = clouses("hunain");
+// const greetings = clouses("abdullah");
+// greeting()
+// greetings()
+
+// setTimeout(() => {
+//     console.log("hello hunain")
+// }, 3000);
+
+// setInterval(() => {
+//     console.log("hello hunain")
+// }, 3000);
+
+// const sum = [1, 2, 3, 4, 5]
+// const arr = sum.reduce((run,acc)=> run + acc,0)
+// console.log(arr)
+
+
+// function name(str) {
+//     const palindrom = str.split("").reverse().join("");
+//     return palindrom === str
+    
+// }
+//  console.log(name("madam")) 
+//  console.log(name("level")) 
+//  console.log(name("hellow")) 
+
+
+//  const arr = [1, 2, 2, 3, 4, 4, 5]
+
+//  const sec = [...new Set(arr)]
+//  console.log(sec)
+
+
+const firstnumber = Number(prompt("first number")) 
+const Secondnumber = Number(prompt("second number"))
+
+const plus = firstnumber + Secondnumber;
+const minus = firstnumber - Secondnumber
+const mutlply = firstnumber * Secondnumber
+const divide = firstnumber % Secondnumber
+
+const results = [
+    { operation: "Sum", value: plus },
+    { operation: "Difference", value: minus },
+    { operation: "Product", value: mutlply },
+    { operation: "Division", value: divide },
+];
+
+
+const resultsDiv = document.getElementById("results");
+resultsDiv.innerHTML = results.map(item => `<p>${item.operation}: ${item.value}</p>`).join("");
+
