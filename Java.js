@@ -617,22 +617,61 @@ const numbers = [1, 2, 3, 4, 5, 6,"hunain"];
 //  console.log(sec)
 
 
-const firstnumber = Number(prompt("first number")) 
-const Secondnumber = Number(prompt("second number"))
+// const firstnumber = Number(prompt("first number")) 
+// const Secondnumber = Number(prompt("second number"))
 
-const plus = firstnumber + Secondnumber;
-const minus = firstnumber - Secondnumber
-const mutlply = firstnumber * Secondnumber
-const divide = firstnumber % Secondnumber
+// const plus = firstnumber + Secondnumber;
+// const minus = firstnumber - Secondnumber
+// const mutlply = firstnumber * Secondnumber
+// const divide = firstnumber % Secondnumber
 
-const results = [
-    { operation: "Sum", value: plus },
-    { operation: "Difference", value: minus },
-    { operation: "Product", value: mutlply },
-    { operation: "Division", value: divide },
-];
+// const results = [
+//     { operation: "Sum", value: plus },
+//     { operation: "Difference", value: minus },
+//     { operation: "Product", value: mutlply },
+//     { operation: "Division", value: divide },
+// ];
 
 
-const resultsDiv = document.getElementById("results");
-resultsDiv.innerHTML = results.map(item => `<p>${item.operation}: ${item.value}</p>`).join("");
+// const resultsDiv = document.getElementById("results");
+// resultsDiv.innerHTML = results.map(item => `<p>${item.operation}: ${item.value}</p>`).join("");
 
+// alert("hey hunain")
+
+// console.log(a)
+// var a = 10
+
+
+// let x = 10
+// {
+//   let x = 20
+// }
+// console.log(x)
+
+
+
+// const arr = [1, 2, 3]
+// arr.push(4)
+// console.log(arr)
+
+
+// function test() {
+//   console.log(name)
+//   var name = "Hunain"
+// }
+// test()
+
+// console.log(typeof null)
+// const nums = [1, 2, 3, 4]
+// const result = nums.map(n => n > 2)
+// console.log(result)
+
+
+// let a = []
+// let b = []
+// console.log(a == b)
+
+
+let rname =  "javascript"
+const nain = rname.split("").reverse().join("")
+console.log(nain)
