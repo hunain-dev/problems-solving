@@ -672,6 +672,82 @@ const numbers = [1, 2, 3, 4, 5, 6,"hunain"];
 // console.log(a == b)
 
 
-let rname =  "javascript"
-const nain = rname.split("").reverse().join("")
-console.log(nain)
+// let rname =  "javascript"
+// const nain = rname.split("").reverse().join("")
+// console.log(nain)
+
+
+// alert("hey hunain")
+
+
+// var hamare pass aik varibale hote hai jo reuckla rbhi hota hai aur updatte bhi hota haiii but ab es7 me ab ye itna secrue nh hai
+// let hamare passs redeclae to nh htoa but update zaroor hota haiii
+// const ye na redeclae nh hota aur update bhi nh hota haiii
+
+// console.log(a)
+// let a = 30;
+
+
+// function outerfunc() {
+
+//     let name = "hunain"
+//     function innerr() {
+//         console.log("hellow",name)
+        
+//     }
+//     innerr()
+// }
+// console.log(outerfunc())
+
+
+
+// for(let i = 0; i <= 3; i++) {
+//     setTimeout(() => {
+//       console.log(i)        
+//     }, 3000);
+// }
+
+// const obj = { name: "Hunain" };
+// obj.name = "Ali";
+// console.log(obj);
+
+
+// console.log(typeof null);
+// let a = [1,2,3,4];
+// let b = a;
+// b.push(5);
+// console.log(a);
+
+// const sum = (a) => (b) => a + b;
+// console.log(sum(5)(3));
+
+// console.log([] == []);
+
+
+// let x = 10;
+// (function () {
+//   console.log(x);
+//   let x = 20;
+// })();
+
+
+// const Counter = () => {
+
+//   let count = 0;
+//   return (
+//     <button onClick={() => count++}>
+//       {count}
+//     </button>
+//   );
+// };
+// export default Counter;
+
+
+// const arr = [1,2,3,4,5,6,7,8,9,9,2,2,3,4];
+// const nc = [...new Set(arr)]
+// console.log(nc)
+
+let name  = "hunain khan"
+let sum = name.split("").reverse("").join("")
+console.log(sum)
+// console.log(name)
